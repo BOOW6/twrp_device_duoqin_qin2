@@ -26,7 +26,7 @@ SPDX-License-Identifier: Apache-2.0
 
 https://github.com/BOOW6/twrp_device_duoqin_qin2/releases
 
-## Device specifications
+## Device Specifications
 
 | Device | DuoQin2 |
 | ---: | :--- |
