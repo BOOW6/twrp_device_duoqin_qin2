@@ -1,4 +1,3 @@
-
 # twrp_device_duoqin_qin2
 
 Generated with twrpdtgen
@@ -19,8 +18,9 @@ SPDX-License-Identifier: Apache-2.0
 5. MTP
 6. ADB
 7. OTG
+8. Decryption
 **Faild:**
-1. Decryption
+1. 
 -->
 ## Downloads
 

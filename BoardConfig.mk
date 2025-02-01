@@ -112,6 +112,7 @@ TW_ROUND_SCREEN := true
 TW_STATUS_ICONS_ALIGN := center
 TW_HAPTICS_TSPDRV := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/sprd_backlight/brightness"
+TW_TIME_ZONE_VAR := "Asia/Shanghai"
 
 # Debug
 TARGET_USES_LOGD := true
