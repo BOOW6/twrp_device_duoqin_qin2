@@ -111,6 +111,7 @@ TW_USE_TOOLBOX := true
 TW_ROUND_SCREEN := true
 TW_STATUS_ICONS_ALIGN := center
 TW_HAPTICS_TSPDRV := true
+TW_BRIGHTNESS_PATH := "/sys/class/backlight/sprd_backlight/brightness"
 
 # Debug
 TARGET_USES_LOGD := true
