@@ -117,7 +117,7 @@ TW_TIME_ZONE_VAR := TAIST-8
 #TW_HAPTICS_TSPDRV := true
 TW_SUPPORT_INPUT_1_0_HAPTICS := true
 # custom information
-TW_DEVICE_VERSION := "🐢"
+TW_DEVICE_VERSION := "This is TW_DEVICE_VERSION"
 
 # Debug
 TARGET_USES_LOGD := true
