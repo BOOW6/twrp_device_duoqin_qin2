@@ -18,6 +18,7 @@ OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sp9832e_1h10_32b
+# Not building the bootloader
 TARGET_NO_BOOTLOADER := true
 
 # Display
@@ -103,6 +104,8 @@ TW_INCLUDE_CRYPTO_FBE := true
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 170
 TW_USE_TOOLBOX := true
+TW_ROUND_SCREEN := true
+TW_STATUS_ICONS_ALIGN := center
 
 # Debug
 TARGET_USES_LOGD := true
