@@ -30,7 +30,7 @@ https://github.com/BOOW6/twrp_device_duoqin_qin2/releases
 
 | Device | DuoQin2 |
 | ---: | :--- |
-| SoC | UNISOC SC9832E |
+| SoC | UNISOC SC9832E (sp9832e_1h10_go) |
 | CPU | 4x Arm Cortex-A53, 1.4Ghz |
 | GPU | ARM Mali T820 MP1, 680MHz |
 | Memory | 1 GB, 667MHz |
