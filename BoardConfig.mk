@@ -115,6 +115,7 @@ BOARD_HAS_NO_REAL_SDCARD := true
 TW_TIME_ZONE_VAR := TAIST-8
 # vibrator fix
 #TW_HAPTICS_TSPDRV := true
+TW_SUPPORT_INPUT_1_0_HAPTICS := true
 # custom information
 TW_DEVICE_VERSION := "🐢"
 
