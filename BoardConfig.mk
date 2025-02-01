@@ -110,9 +110,8 @@ TW_ROUND_SCREEN := true
 TW_STATUS_ICONS_ALIGN := center
 TW_HAPTICS_TSPDRV := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/sprd_backlight/brightness"
-TW_TIME_ZONE_VAR := "Asia/Shanghai"
-
-#BOARD_HAS_NO_REAL_SDCARD := true
+TW_TIME_ZONE_VAR := TAIST-8
+BOARD_HAS_NO_REAL_SDCARD := true
 
 # Debug
 TARGET_USES_LOGD := true
