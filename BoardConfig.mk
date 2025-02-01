@@ -98,7 +98,7 @@ ifeq ($(BOARD_AVB_ENABLE), true)
 endif
 
 # Fstab
-TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
