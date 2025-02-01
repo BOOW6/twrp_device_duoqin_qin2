@@ -114,7 +114,6 @@ TW_BRIGHTNESS_PATH := "/sys/class/backlight/sprd_backlight/brightness"
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 170
 TW_ROUND_SCREEN := true
-TW_HAS_EDL_MODE := true
 HAVE_SELINUX := true
 BOARD_HAS_NO_REAL_SDCARD := true
 RECOVERY_SDCARD_ON_DATA := true
