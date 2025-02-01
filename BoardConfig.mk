@@ -101,8 +101,6 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_DEFAULT_LANGUAGE := zh_CN
-#BOARD_HAS_NO_REAL_SDCARD := true
-# Decryption support for /data
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
 TW_MAX_BRIGHTNESS := 255
@@ -113,6 +111,8 @@ TW_STATUS_ICONS_ALIGN := center
 TW_HAPTICS_TSPDRV := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/sprd_backlight/brightness"
 TW_TIME_ZONE_VAR := "Asia/Shanghai"
+
+#BOARD_HAS_NO_REAL_SDCARD := true
 
 # Debug
 TARGET_USES_LOGD := true
