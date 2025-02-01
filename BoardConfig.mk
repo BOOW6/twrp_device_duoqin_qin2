@@ -106,16 +106,17 @@ TW_USE_TOOLBOX := true
 TW_DEFAULT_LANGUAGE := zh_CN
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
+TW_BRIGHTNESS_PATH := "/sys/class/backlight/sprd_backlight/brightness"
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 170
-TW_USE_TOOLBOX := true
 TW_ROUND_SCREEN := true
-TW_STATUS_ICONS_ALIGN := center
-#TW_HAPTICS_TSPDRV := true
-TW_BRIGHTNESS_PATH := "/sys/class/backlight/sprd_backlight/brightness"
-TW_TIME_ZONE_VAR := TAIST-8
-BOARD_HAS_NO_REAL_SDCARD := true
 TW_HAS_EDL_MODE := true
+BOARD_HAS_NO_REAL_SDCARD := true
+TW_TIME_ZONE_VAR := TAIST-8
+# vibrator fix
+#TW_HAPTICS_TSPDRV := true
+# custom information
+TW_DEVICE_VERSION := "🐢"
 
 # Debug
 TARGET_USES_LOGD := true
