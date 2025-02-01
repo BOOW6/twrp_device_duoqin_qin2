@@ -1,57 +1,10 @@
 # add for board init.rc for recovery mode
-on post-fs
-# init.vibdrv.rc
-    insmod /vendor/lib/modules/sprd_vibrator.ko
+on fs
+    start load_modules
 
-on boot
-    wait /sys/class/timed_output/vibrator/enable
-    chmod 664 /sys/class/timed_output/vibrator/enable
-    chown root system /sys/class/timed_output/vibrator/enable
-# init.vibdrv.rc end
-
-service usb-hal-1-1 /sbin/android.hardware.usb@1.1-service
-    class hal
-    user system
-    group system
-
-service vendor.power-hal-3-0-sprd /sbin/vendor.sprd.hardware.power@3.0-service
-    class hal
-    user root
-    group system
-
-service vendor.keymaster-3-0 /sbin/android.hardware.keymaster@3.0-service
-    class early_hal
-    user system
-    group system drmrpc
-
-service vendor.gatekeeper-1-0 /sbin/android.hardware.gatekeeper@1.0-service
-    class hal
-    user system
-    group system
-
-service vendor.drm-clearkey-hal-1-1 /sbin/android.hardware.drm@1.1-service.clearkey
-    class hal
-    user media
-    group media mediadrm
-    ioprio rt 4
-    writepid /dev/cpuset/foreground/tasks
-
-# android.hardware.drm@1.1-service.widevine.rc
-on property:init.svc.mediadrm=running
-    mkdir /data/vendor/mediadrm 0770 media mediadrm
-    start vendor.move_data_sh
-
-service vendor.move_data_sh /system/bin/move_widevine_data.sh
-    class late_start
-    user media
-    group media mediadrm system
-    disabled
+service load_modules /sbin/load_modules.sh
     oneshot
-
-service vendor.drm-widevine-hal-1-1 /sbin/android.hardware.drm@1.1-service.widevine
-    class hal
-    user media
-    group media mediadrm drmrpc
-    ioprio rt 4
-    writepid /dev/cpuset/foreground/tasks
-# android.hardware.drm@1.1-service.widevine.rc end
+    disabled
+    user root
+    group root
+    seclabel u:r:recovery:s0
