@@ -39,7 +39,7 @@
 /vendor			ext4	/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/vendor			flags=backup=1
 /vendor_image	emmc	/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/vendor			flags=backup=1;flashimg=1
 /product		ext4	/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/product		flags=backup=1
-/product_image	ext4	/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/product		flags=backup=1;flashimg=1
+/product_image	emmc	/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/product		flags=backup=1;flashimg=1
 /data			f2fs	/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata
 /cache			ext4	/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/cache
 /productinfo	ext4	/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/prodnv			flags=backup=1
