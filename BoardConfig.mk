@@ -123,10 +123,10 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 #TW_TIME_ZONE_VAR :=
 # Show build time on the splash screen
-TW_DEVICE_VERSION := $(shell date '+%Y%m%d')
+TW_DEVICE_VERSION = $(shell date '+%Y%m%d')
 
 # OFRP Configuration
-OF_TARGET_DEVICES := sp9832e_1h10_go
+FOX_TARGET_DEVICES = "sp9832e_1h10_go"
 
 # Debug
 TARGET_USES_LOGD := true
