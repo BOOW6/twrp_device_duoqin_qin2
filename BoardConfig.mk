@@ -126,8 +126,7 @@ TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_DEVICE_VERSION = $(shell date '+%Y%m%d')
 
 # OFRP Configuration
-OF_TARGET_DEVICES = "sp9832e_1h10_go"
-#FOX_TARGET_DEVICES = "sp9832e_1h10_go"
+FOX_TARGET_DEVICES = "sp9832e_1h10_go"
 
 # Debug
 TARGET_USES_LOGD := true
