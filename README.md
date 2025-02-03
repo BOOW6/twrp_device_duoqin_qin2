@@ -9,7 +9,7 @@ SPDX-License-Identifier: Apache-2.0
 ```
 
 ## Status
-<!--
+
 **Working:**
 1. Backup & Restore
 2. Flash Stock ROM
@@ -17,11 +17,14 @@ SPDX-License-Identifier: Apache-2.0
 4. Screenshots renders correct color
 5. MTP
 6. ADB
-7. OTG
-8. Decryption
+
 **Faild:**
 1. 
--->
+
+**Not tested yet:**
+1. OTG
+2. Decryption
+
 ## Downloads
 
 https://github.com/BOOW6/twrp_device_duoqin_qin2/releases
