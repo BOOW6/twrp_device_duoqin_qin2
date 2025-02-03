@@ -4,6 +4,8 @@ Generated with twrpdtgen
 
 ## Status
 
+**TWRP:**
+
 **Working:**
 1. Backup & Restore
 2. Flash Stock ROM
@@ -13,11 +15,15 @@ Generated with twrpdtgen
 6. ADB
 
 **Faild:**
-1. 
+1. ~
 
 **Not tested yet:**
 1. OTG
-2. Decryption
+2. Decryption (This device is not encrypted by default)
+
+**OFRP:**
+
+I don't know why it could not find a file called "ld.config.txt" and how to solve it...
 
 ## Downloads
 
