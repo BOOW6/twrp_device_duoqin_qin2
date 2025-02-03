@@ -9,7 +9,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from this configs
 $(call inherit-product, build/target/product/embedded.mk)
-$(call inherit-product, build/target/product/core_base.mk)
+#$(call inherit-product, build/target/product/core_base.mk)
 
 #Treble Support
 $(call inherit-product, $(SRC_TARGET_DIR)/product/treble_common.mk)
