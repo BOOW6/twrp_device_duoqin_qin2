@@ -36,7 +36,7 @@ https://github.com/BOOW6/twrp_device_duoqin_qin2/releases
 | SoC | UNISOC SC9832E (sp9832e_1h10_go) |
 | CPU | 4x ARM Cortex-A53 @ 1400 MHz (32-bit Mode) |
 | GPU | ARM Mali T820 MP1, 680MHz |
-| Memory | 1 GB, 667MHz |
+| Memory | LPDDR3, 1 GB, 667MHz |
 | Shipped Android version | Android 9.0 |
 | Storage | 32 GB, eMMC5.1 |
 | Battery | Non-removable Li-Ion 2100 mAh battery |
