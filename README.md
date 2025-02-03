@@ -4,7 +4,7 @@ Generated with twrpdtgen
 
 ## Status
 
-**TWRP:**
+### TWRP
 
 **Working:**
 1. Backup & Restore
@@ -21,7 +21,7 @@ Generated with twrpdtgen
 1. OTG
 2. Decryption (This device is not encrypted by default)
 
-**OFRP:**
+### OFRP
 
 I don't know why it could not find a file called "ld.config.txt" and how to solve it...
 
