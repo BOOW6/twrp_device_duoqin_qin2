@@ -36,6 +36,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.debuggable=1 \
 	persist.sys.usb.config=adb,mtp \
 	sys.usb.config=adb,mtp
-
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/configs/ld.config.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/ld.config.txt
